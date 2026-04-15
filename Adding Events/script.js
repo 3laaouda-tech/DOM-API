@@ -25,19 +25,17 @@ addItemBtn.addEventListener('click', () => {
   li.textContent = randomTask;
   li.className = 'p-2 border-b hover:bg-gray-100';
   itemList.appendChild(li);
-  
-  // Scroll to the last task
-  li.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
 });
 
 // Event 2: Display alert with custom message
 alertBtn.addEventListener('click', () => {
-  alert('This is a custom alert message!');
+  alert('Hi,This is a alert message!');
 });
 
 // Event 3: Log to console with custom message
 consoleBtn.addEventListener('click', () => {
-  console.log('Custom message logged to console!');
+  console.log('Hi,This is a custom message logged to console!');
 });
 
 /*
